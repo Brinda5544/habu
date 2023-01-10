@@ -1,0 +1,234 @@
+
+.logo-img{
+	padding: 30px 0px;
+	display: block;
+	margin-left: 21%;
+	margin-right: auto;
+}
+.nav{
+	display: block;
+	margin-left: 200px;
+	margin-right: auto;
+}
+.nav li {
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.nav li a{
+	font-family: oxygen, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: #000;
+}
+.menu-bttn{
+	border-right: 1px #000 solid;
+}
+.nav li a:hover{
+	font-family: oxygen, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	background-color: #fff;
+}
+#gallery:hover{
+	color: red;
+}
+#blog:hover{
+	color: green;
+}
+#reciepe:hover{
+	color: brown;
+}
+#kaha:hover{
+	color: orange;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+.dropdown-menu li a{
+	font-family: oxygen, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	color: #000;
+}
+.dropdown-menu li a:hover{
+	font-family: oxygen, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15px;
+	color: #000;
+}
+
+/*header-closed*/
+
+.adv-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+/*ad-closed*/
+
+.body-topics{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h1.slider-heading {
+	text-align: center;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	font-family: oxygen, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+	color: #000;
+}
+
+.slider-img{
+	position: cover;
+	display: block;
+	opacity: 0.75;
+  	filter: alpha(opacity=70);
+}
+
+.carousel h1{
+	margin-top: 0px;
+	font-family: oxygen, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	color: #000;
+}
+.carousel p{
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: oxygen, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	color: #000;
+}
+.carousel a:hover .slider-img{
+	position: cover;
+	display: block;
+	opacity: 1;
+  	filter: alpha(opacity=0);
+}
+.carousel a:hover .carousel-caption{
+	background-color: rgba(248, 247, 216, 0.75) 
+	
+}
+.carousel-caption{
+	opacity: calc(0);
+}
+.carousel-caption:hover{
+	opacity: calc(1);
+}
+/*container-body-closed*/
+
+.footer{
+	background-color: #000;
+	color: #fff;
+	padding: 60px 0px;
+	margin-top: 30px;
+}
+ .left-footer h2{
+ 	font-family: oxygen, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: 2px;
+	line-height: 35px;
+ }
+ #footer-logo{
+ 	height: 60px;
+ 	width: auto;
+ }
+
+ .right-footer ul{
+ 	list-style-type: none;
+ }
+ .right-left-footer li a{
+ 	text-decoration: none;
+ 	font-family: oxygen, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #fff;
+ }
+ .right-right-footer li a{
+ 	text-decoration: none;
+ 	font-family: oxygen, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #fff;
+ }
+ .right-left-footer li a:hover{
+ 	text-decoration: none;
+ 	font-family: oxygen, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #fff;
+ }
+.right-right-footer li a:hover{
+ 	text-decoration: none;
+ 	font-family: oxygen, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #fff;
+ }
+
+ .right-bottom ul{
+ 	list-style-type: none;
+ }
+ .social-logo{
+ 	padding-right: 15%;
+ 	margin-top: 20px;
+ }
+.social-logo li a{
+	float: left;
+	margin:0px 6px;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+/*social-site-logo-on-hover effect*/
+.social-logo li a .yt:hover{
+	color: #FF0000;
+}
+.social-logo li a .tw:hover{
+	color: #38A1F3;
+}
+.social-logo li a .pt:hover{
+	color: red;
+}
+.social-logo li a .sc:hover{
+	color: #FFFC00;
+}
+.social-logo li a .ig:hover{
+	color: #bc2a8d;
+}
+.social-logo li a .fb:hover{
+	color: #3578E5;
+}
